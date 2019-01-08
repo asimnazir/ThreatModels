@@ -169,8 +169,8 @@
                 "height": 80
               },
               "position": {
-                "x": 841,
-                "y": 464
+                "x": 860,
+                "y": 539
               },
               "angle": 0,
               "id": "22013dfb-22bc-44c0-a644-3329c611900b",
@@ -225,8 +225,8 @@
               },
               "vertices": [
                 {
-                  "x": 718,
-                  "y": 559
+                  "x": 714,
+                  "y": 586
                 }
               ],
               "id": "80e184d3-6b23-4db8-ad55-81d2704983fd",
@@ -264,8 +264,8 @@
               },
               "vertices": [
                 {
-                  "x": 714,
-                  "y": 486
+                  "x": 709,
+                  "y": 524
                 }
               ],
               "id": "eced86ef-b10f-4498-8a82-ab0b0c86ec45",
@@ -578,6 +578,48 @@
               "id": "797fb45d-4c86-4fe3-9686-1133730d462b",
               "z": 24,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "87551cf7-30c3-4c43-a802-0033ca858488"
+              },
+              "target": {
+                "id": "e2610c2c-4112-4218-b9d4-b801f5087c0c"
+              },
+              "vertices": [
+                {
+                  "x": 701,
+                  "y": 126
+                }
+              ],
+              "id": "4b341818-dc07-47ad-a377-ce43a763be03",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4782323815962596,
+                    "offset": -14.334420308936387
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "7-Upload Doc",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 25,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
