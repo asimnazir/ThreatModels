@@ -104,8 +104,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.277988181699662,
-                    "offset": -7.071523065678775
+                    "distance": 0.32673186163136597,
+                    "offset": -32.06058457214385
                   },
                   "attrs": {
                     "text": {
@@ -398,8 +398,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.3517760143127016,
-                    "offset": -2.130730181466788
+                    "distance": 0.2215000988356895,
+                    "offset": 44.10503834299743
                   },
                   "attrs": {
                     "text": {
@@ -459,8 +459,7 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 628,
-                "y": 128
+                "id": "87551cf7-30c3-4c43-a802-0033ca858488"
               },
               "target": {
                 "x": 523,
@@ -475,7 +474,10 @@
               "id": "c8fea2ba-abd9-4f3f-aa10-1e0461283b1e",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.13446130294894493,
+                    "offset": -43.444525997154415
+                  },
                   "attrs": {
                     "text": {
                       "text": "5-Upload Doc / Add\nMessage",
@@ -555,6 +557,27 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 806,
+                "y": 131
+              },
+              "target": {
+                "x": 387,
+                "y": 134
+              },
+              "vertices": [
+                {
+                  "x": 609,
+                  "y": 220
+                }
+              ],
+              "id": "797fb45d-4c86-4fe3-9686-1133730d462b",
+              "z": 24,
+              "attrs": {}
             }
           ]
         },
