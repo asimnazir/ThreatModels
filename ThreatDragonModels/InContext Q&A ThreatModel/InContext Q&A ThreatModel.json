@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "title": "InContext Q&A ThreatModel"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Flow Diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
