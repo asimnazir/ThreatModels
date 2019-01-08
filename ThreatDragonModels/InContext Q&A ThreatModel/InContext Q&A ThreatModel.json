@@ -45,8 +45,8 @@
                 "height": 100
               },
               "position": {
-                "x": 477,
-                "y": 468
+                "x": 487,
+                "y": 380
               },
               "angle": 0,
               "id": "712b95aa-d15b-40e0-8306-9e31c4c5bf40",
@@ -57,33 +57,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Load\nIn-Context\nPanel"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 464,
-                "y": 294
-              },
-              "angle": 0,
-              "id": "0f848678-7162-4ef2-83f6-aac70416906f",
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Create Request"
+                  "text": "In\nContextPanel"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -129,10 +103,13 @@
               "id": "c09e3ef5-4074-4a2c-a146-b12608043306",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.277988181699662,
+                    "offset": -7.071523065678775
+                  },
                   "attrs": {
                     "text": {
-                      "text": "1-Browse",
+                      "text": "1-Browse (Authorized\nUser)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -212,56 +189,14 @@
               }
             },
             {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 15,
-                "y": 170
-              },
-              "target": {
-                "x": 455,
-                "y": 159
-              },
-              "vertices": [
-                {
-                  "x": 238,
-                  "y": 233
-                }
-              ],
-              "id": "4c0f414a-f78a-44d6-8cd3-6863807ca641",
-              "z": 9,
-              "attrs": {}
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 448,
-                "y": 590
-              },
-              "target": {
-                "x": 465,
-                "y": 229
-              },
-              "vertices": [
-                {
-                  "x": 397,
-                  "y": 413
-                }
-              ],
-              "id": "d39abfa0-4ce9-437d-8c76-aa8077458157",
-              "z": 10,
-              "attrs": {}
-            },
-            {
               "type": "tm.Actor",
               "size": {
                 "width": 160,
                 "height": 80
               },
               "position": {
-                "x": 281,
-                "y": 50
+                "x": 470,
+                "y": 37
               },
               "angle": 0,
               "id": "87551cf7-30c3-4c43-a802-0033ca858488",
@@ -315,6 +250,132 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "22013dfb-22bc-44c0-a644-3329c611900b"
+              },
+              "target": {
+                "id": "712b95aa-d15b-40e0-8306-9e31c4c5bf40"
+              },
+              "vertices": [
+                {
+                  "x": 713,
+                  "y": 555
+                }
+              ],
+              "id": "eced86ef-b10f-4498-8a82-ab0b0c86ec45",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4701998981451528,
+                    "offset": -1.2422256227582693
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Requests / Messages",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "867207e9-d542-4be9-970a-661bc7387de0"
+              },
+              "target": {
+                "id": "712b95aa-d15b-40e0-8306-9e31c4c5bf40"
+              },
+              "vertices": [],
+              "id": "c2122ef4-3622-467a-8315-5ca4799e2e5f",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.3528660073083007,
+                    "offset": -20.541337847243994
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "3-Create Request\n(Missing Doc)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 7,
+                "y": 168
+              },
+              "target": {
+                "x": 730,
+                "y": 129
+              },
+              "vertices": [
+                {
+                  "x": 365,
+                  "y": 241
+                }
+              ],
+              "id": "7ac7c284-bfbb-4084-a266-53d902b4990c",
+              "z": 16,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 596,
+                "y": 214
+              },
+              "angle": 0,
+              "id": "64b8ec01-abae-4df6-979e-f740755a20c4",
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "MyFirm (Activiti\nes\nMissingDocs)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
