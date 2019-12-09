@@ -110,6 +110,8 @@
               ],
               "z": 4,
               "hasOpenThreats": false,
+              "protocol": "https",
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -183,8 +185,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 357,
-                "y": 346
+                "x": 145,
+                "y": 495
               },
               "target": {
                 "x": 350,
@@ -192,19 +194,340 @@
               },
               "vertices": [
                 {
-                  "x": 382,
-                  "y": 270
+                  "x": 335,
+                  "y": 433
+                },
+                {
+                  "x": 392,
+                  "y": 273
                 }
               ],
               "id": "bac4f136-7449-4b0a-a438-3cd63d5de8ee",
               "z": 7,
               "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 180,
+                "y": 355
+              },
+              "angle": 0,
+              "id": "207b07fd-d319-4e00-bf2f-c61bce047a9b",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Azure PeppolDi\nrectoryService"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8f5ef000-1dfd-4d55-9a25-68f69618c1ff"
+              },
+              "target": {
+                "id": "207b07fd-d319-4e00-bf2f-c61bce047a9b"
+              },
+              "vertices": [],
+              "id": "ebd0fd64-fc3d-4e6e-a55c-0a9dcb019dfd",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Generate SAS URL",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 286,
+                "y": 618
+              },
+              "angle": 0,
+              "id": "7f5185e3-f856-4f3a-991a-5af76570a53a",
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "EOL-BG-BulkPa\nrticipantLooku\np"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "207b07fd-d319-4e00-bf2f-c61bce047a9b"
+              },
+              "target": {
+                "id": "7f5185e3-f856-4f3a-991a-5af76570a53a"
+              },
+              "vertices": [],
+              "id": "f3b6cb10-a7b5-403a-a8ef-8a77c2fa4473",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Get SAS URL",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "protocol": "https",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8f5ef000-1dfd-4d55-9a25-68f69618c1ff"
+              },
+              "target": {
+                "id": "7f5185e3-f856-4f3a-991a-5af76570a53a"
+              },
+              "vertices": [],
+              "id": "50d7bb72-ffc8-410b-8bdd-1b61a7fe3962",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Download Participant\nJSON",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 147,
+                "y": 583
+              },
+              "target": {
+                "x": 577,
+                "y": 788
+              },
+              "vertices": [
+                {
+                  "x": 389,
+                  "y": 561
+                }
+              ],
+              "id": "99872073-6267-4374-a725-68e3cdedaa6e",
+              "z": 13,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 826,
+                "y": 557
+              },
+              "angle": 0,
+              "id": "ee86f5e4-5b7c-4a18-b344-f069392e975f",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "EOL DB"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 814,
+                "y": 718
+              },
+              "target": {
+                "x": 812,
+                "y": 421
+              },
+              "vertices": [
+                {
+                  "x": 769,
+                  "y": 584
+                }
+              ],
+              "id": "3b9bff93-e147-43b7-9c73-7dce60a46fcc",
+              "z": 15,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7f5185e3-f856-4f3a-991a-5af76570a53a"
+              },
+              "target": {
+                "id": "ee86f5e4-5b7c-4a18-b344-f069392e975f"
+              },
+              "vertices": [],
+              "id": "236a5d42-d053-4f07-af2d-1f2530b57913",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Update Accounts with\nPEPPOL ID",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 396,
+                "y": 716
+              },
+              "angle": 0,
+              "id": "3004ec81-e914-49ca-86a4-20ac6faaf2e8",
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "EOL-Finvoices.a\nspx"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ee86f5e4-5b7c-4a18-b344-f069392e975f"
+              },
+              "target": {
+                "id": "3004ec81-e914-49ca-86a4-20ac6faaf2e8"
+              },
+              "vertices": [],
+              "id": "69f89618-3b7d-4b2a-b70b-c2ee8fc6f195",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Show Registered on\nPEPPOL bullet",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
-          "height": 590,
-          "width": 790
+          "height": 956.7504272460938,
+          "width": 868.7999877929688
         }
       }
     ]
