@@ -1354,7 +1354,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "13-Browse",
+                      "text": "13.1-Browse",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1362,6 +1362,45 @@
                 }
               ],
               "z": 44,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ee86f5e4-5b7c-4a18-b344-f069392e975f"
+              },
+              "target": {
+                "id": "659ae27a-9c77-4b7e-9804-b00840b7da15"
+              },
+              "vertices": [
+                {
+                  "x": 378,
+                  "y": 834
+                }
+              ],
+              "id": "3485e69c-5945-4a9f-a5c9-db2d3544b1f4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "13.2-InvoiceStatus",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 45,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
